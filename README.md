@@ -32,26 +32,30 @@ Used recordings from a single speaker for fine-tuning
 Trimmed and downsampled to 16 kHz for compatibility with XTTS-v2
 
 # 🛠️ Methods & Implementation
-1. Preprocessing
+1. Preprocessing:
+   
 Trimmed silence and normalized audio with preprocessing.py and trimming.py
 
 Downsampled to 22050 Hz, mono-channel
 
 Transcripts auto-generated or extracted, saved to metadata.csv
 
-2. Speaker Embedding
+2. Speaker Embedding:
+
 Used speaker_embedding.py to extract speaker identity features
 
 The embedding represents voice characteristics like pitch, tone, and speaking style
 
-3. Fine-tuning XTTS-v2
+3. Fine-tuning XTTS-v2:
+
 Ran finetune.py using the prepared dataset
 
 Used pretrained XTTS-v2 model as base
 
 Optimized the decoder and vocoder on speaker-specific data
 
-4. Inference / Speech Synthesis
+4. Inference / Speech Synthesis:
+   
 After training, generated cloned voice using:
 
 tts.tts_to_file(text="Hello, how are you?", speaker_wav="sample.wav", file_path="output.wav")
