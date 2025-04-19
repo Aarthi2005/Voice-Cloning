@@ -15,13 +15,13 @@ The pipeline includes audio preprocessing, metadata creation, speaker embedding 
 # Dataset – RAVDESS
 The project uses the RAVDESS dataset, which contains:
 
- 24 professional actors (12 male, 12 female)
+🎤 24 professional actors (12 male, 12 female)
 
-7356 files in total (speech and song)
+🧠 7356 files in total (speech and song)
 
-Emotion-rich speech samples including neutral, calm, happy, sad, angry, fearful, disgust, and surprised
+🗣️ Emotion-rich speech samples including neutral, calm, happy, sad, angry, fearful, disgust, and surprised
 
- High-quality audio in WAV format (48 kHz)
+📁 High-quality audio in WAV format (48 kHz)
 
 For our voice cloning task:
 
@@ -61,11 +61,11 @@ After training, generated cloned voice using:
 tts.tts_to_file(text="Hello, how are you?", speaker_wav="sample.wav", file_path="output.wav")
 
 # Results
-Successfully generated cloned speech that mimics the RAVDESS speaker’s voice
+✅ Successfully generated cloned speech that mimics the RAVDESS speaker’s voice
 
-Speech retains emotion, pronunciation, and pacing from the training speaker
+🎧 Speech retains emotion, pronunciation, and pacing from the training speaker
 
-Cloned speech was intelligible and sounded natural
+💬 Cloned speech was intelligible and sounded natural
 
 
 
