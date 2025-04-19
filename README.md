@@ -7,4 +7,5 @@ This project demonstrates **voice cloning**, which is the process of synthesizin
 
 
 # Reference voice
-Listen to the [sample.wav]("C:\Users\aarth\Downloads\harvard.wav") 
+Listen to the [sample.wav](audio/harvard.wav)
+
