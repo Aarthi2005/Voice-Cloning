@@ -9,5 +9,8 @@ This project demonstrates **voice cloning**, which is the process of synthesizin
 # Reference voice
 Listen to the [sample.wav](https://github.com/Aarthi2005/Voice-Cloning/blob/main/voice_Harvard.wav)
 
+# Cloned voice
+Listen to the [cloned.wav](
+
 
 
