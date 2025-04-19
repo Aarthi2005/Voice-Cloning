@@ -1,0 +1,33 @@
+{
+    "model": "vits",
+    "output_path": "./vits_output",
+    "dataset": {
+        "formatter": "ljspeech",
+        "dataset_name": "ravdess_emotional_voice_clone",
+        "path": "C:/Users/aarth/OneDrive/Desktop/Voice cloning/TTS_Project/dataset/final_audio",
+        "meta_file_train": "C:/Users/aarth/OneDrive/Desktop/Voice cloning/TTS_Project/dataset/final_audio/metadata.csv",
+        "meta_file_val": "",
+        "meta_file_attn_mask": "",
+        "language": "en",
+        "ignored_speakers": []
+    },
+    "audio": {
+      "sample_rate": 16000,
+      "win_length": 1024,
+      "hop_length": 256,
+      "num_mels": 80
+    },
+    "model_args": {
+      "use_speaker_embedding": true,
+      "num_speakers": 24,
+      "use_d_vector_file": false,
+      "use_language_embedding": false
+    },
+    "trainer": {
+      "epochs": 50,
+      "batch_size": 8,
+      "grad_clip": 1.0,
+      "lr": 0.0001
+    }
+  }
+  
