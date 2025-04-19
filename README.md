@@ -2,11 +2,11 @@
 
 This project demonstrates **voice cloning**, which is the process of synthesizing speech that sounds like a specific person. It uses deep learning models to clone a voice from a short audio sample and generate new speech that mimics the original speaker’s tone, pitch, and speaking style.
 
-# Problem Statement
+# 📌 Problem Statement
 
 To develop a deep learning-based voice cloning system that can mimic a speaker’s voice using a short audio sample and generate realistic, personalized speech. The system uses the XTTS-v2 model and is fine-tuned on speaker data from the RAVDESS dataset to produce expressive, high-quality speech that retains the speaker’s identity and emotional tone.
 
-# Abstract
+# 🧾 Abstract
 
 Voice cloning has emerged as a powerful application of deep learning in speech synthesis. This project implements voice cloning using the XTTS-v2 model, a multilingual, zero-shot TTS system. We fine-tuned the pretrained model using speaker data from the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset, which contains high-quality speech recordings expressed with various emotions.
 
@@ -31,7 +31,7 @@ Used recordings from a single speaker for fine-tuning
 
 Trimmed and downsampled to 16 kHz for compatibility with XTTS-v2
 
-🛠️ Methods & Implementation
+# 🛠️ Methods & Implementation
 1. Preprocessing
 Trimmed silence and normalized audio with preprocessing.py and trimming.py
 
@@ -65,14 +65,14 @@ tts.tts_to_file(text="Hello, how are you?", speaker_wav="sample.wav", file_path=
 
 
 
-# Output
+# 📢 Output
 ![Screenshot 2025-04-17 181717](https://github.com/user-attachments/assets/0cb2f073-6168-4853-ba19-5b7afd263121)
 
 
-# Reference voice
+# 🎙️ Reference voice
 Listen to the [sample.wav](https://github.com/Aarthi2005/Voice-Cloning/blob/main/voice_Harvard.wav)
 
-# Cloned voice
+# 🗣️ Cloned voice
 Listen to the [cloned.wav](https://github.com/Aarthi2005/Voice-Cloning/blob/main/cloned_voice.wav)
 
 
