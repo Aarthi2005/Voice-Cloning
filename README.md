@@ -76,6 +76,9 @@ tts.tts_to_file(text="Hello, how are you?", speaker_wav="sample.wav", file_path=
 # 🎙️ Reference voice
 Listen to the [sample.wav](https://github.com/Aarthi2005/Voice-Cloning/blob/main/voice_Harvard.wav)
 
+# Text Input
+**This is a voice cloning project developed by XTTS model.**
+
 # 🗣️ Cloned voice
 Listen to the [cloned.wav](https://github.com/Aarthi2005/Voice-Cloning/blob/main/cloned_voice.wav)
 
